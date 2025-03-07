@@ -31,8 +31,8 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 
 ### Links
 
-- Solution URL:[https://github.com/codejeroo/testimonials-grid-section]
-- Live Site URL:[https://codejeroo.github.io/testimonials-grid-section]
+- Solution URL:[https://github.com/codejeroo/meet-landing-page]
+- Live Site URL:[https://codejeroo.github.io/meet-landing-page/]
 
 
 ### Built with

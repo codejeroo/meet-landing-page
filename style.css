@@ -342,8 +342,18 @@ body, html {
     }
 
     .img-hero-left, .img-hero-right {
-        height: auto;
-        width: 120%;
+        height: 300px;
+        width: auto;
+    }
+
+
+    .img-hero-left {
+        transform: translateX(-30%);
+    }
+
+    .img-hero-right {
+        transform: translateX(30%);
+
     }
 
     .banner {
@@ -393,6 +403,39 @@ body, html {
         margin-left: 50px;
         align-self: flex-start;
     }
+
+}
+
+
+@media (min-width: 1550px) {
+
+
+    .img-hero-left {
+        transform: translateX(-70%);
+    }
+
+    .img-hero-right {
+        transform: translateX(70%);
+
+    }
+
+    .banner {
+        font-size: 84px;
+    }
+
+    .hero-section {
+        min-width: none;
+        padding: 0;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+
+
+
+
 
 }
 

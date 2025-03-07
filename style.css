@@ -230,7 +230,6 @@ body, html {
     url(./starter-code/assets/mobile/image-footer.jpg);
     background-size: cover;
     background-position: top center;
-    z-index: -1;
     width: 100%;
 }
 
@@ -261,6 +260,7 @@ body, html {
 .number-2 {
     margin-bottom: -28px;
     background-color: var(--cs-white);
+    z-index: 1;
 }
 
 @media (min-width: 760px) {
@@ -396,4 +396,8 @@ body, html {
 
 }
 
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 
